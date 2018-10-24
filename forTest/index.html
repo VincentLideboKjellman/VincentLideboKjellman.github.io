@@ -2,22 +2,36 @@
 <html lang="en">
    <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <link rel="stylesheet" type="text/css" href="styles.css">
       <meta charset="utf-8">
       <title>GitHub Pages</title>
    </head>
    <body>
-      <h1>Hello GitHub!</h1>
-      <br>
-      <img src='https://avatars0.githubusercontent.com/u/38105433?s=460&v=4' alt='Github profile pic of Vincent LK'>
-      <br>
-      My Github: <a href="https://github.com/VincentLideboKjellman">https://github.com/VincentLideboKjellman<a>
-      
-      <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div>
-</div>   
-      
+     <div class="container text-center">
+       <div class="row">
+         <div class="col-md-12">
+           <h1>Hello GitHub!</h1>
+           <br>
+           <img id="profileImg" class="img-circle" src='https://avatars0.githubusercontent.com/u/38105433?s=460&v=4' alt='Github profile pic of Vincent LK' width=400px>
+           <br>
+         </div>
+       </div><!--/row-->
+       <div class="row row2"> <!--row 2-->
+         <div class="col-md-12">
+            <a href="https://github.com/VincentLideboKjellman"><img  src='githubimg.png' width='100px'><a>
+            <button onclick="document.getElementById('profileImg').src='https://media.giphy.com/media/l0LIYv9tJFIVHxF5u/giphy.gif'" id="mysteryButton" type="button" class="btn btn-outline-primary">????</button>
+         </div>
+       </div> <!--/row 2-->
+     </div> <!--/container-->
+     <script>
+     function changePic();{
+
+     }
+
+
+     </script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      </body>
    </html>
